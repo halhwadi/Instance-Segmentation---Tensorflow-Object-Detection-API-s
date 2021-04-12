@@ -83,13 +83,14 @@ Running the below line in Anaconda prompt:
 
 **python model\_main\_tf2.py --model\_dir=model --pipeline\_config\_path=model\pipeline.config --num\_train\_steps=3000**
 
-**tensorboard --logdir=model\train**
+
 
 **running in Anaconda prompt:**
 
-the below line of code
+the below line of code:
+**tensorboard --logdir=model\train**
 
-![](RackMultipart20210412-4-16qwcq9_html_713514b3ca3cf12c.png)
+![](https://github.com/halhwadi/Instance-Segmentation---Tensorflow-Object-Detection-API-s/blob/main/images/tensorboard.jpg)
 
 **Inference**** :**
 
