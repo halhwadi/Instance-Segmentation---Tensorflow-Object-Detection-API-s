@@ -38,7 +38,7 @@ git clone https://github.com/halhwadi/Instance-Segmentation---Tensorflow-Object-
  street images have been downloaded by using google map street view and stored under this path (images/resize)
  only 30 images have been downloaded to avoid overloading our modest machine  
  
-
+<br>  
 **Resizeing**
 
 IF your workstation is not equipped with high RAM its highly recommended to resize the images
@@ -50,7 +50,7 @@ You can resize the images in anaconda prompt by running the following line of co
 **resize.py 400 300 images/resize/**  
 
 
-
+<br>
 
 **Annotations**  
 
@@ -64,6 +64,7 @@ Once annotation is done, please make sure to split images between train and test
 
 **Note: make sure to move the images and their corresponding json files as well**  
 
+<br>
 
 **Creating COCO files**
 
@@ -79,28 +80,29 @@ python labelme2coco.py images\test test --labels labels.txt
 
 ![](https://github.com/halhwadi/Instance-Segmentation---Tensorflow-Object-Detection-API-s/blob/main/images/Annoated.png)  
 
-
+<br>
 **Creating Label map:**
 
 Refer to tutorial notebook for more details  
 
-
+<br>
 **Creating tfrecords:**
  running the below command in Anaconda prompt:
 
 **python create\_coco\_tf\_record.py --logtostderr --train\_image\_dir=images/train --test\_image\_dir=images/test --train\_annotations\_file=train/annotations.json --test\_annotations\_file=test/annotations.json --output\_dir=tfrecords --include\_masks**  
 
-
+<br>
 **Downloading the mask\_rcnn model from Tensorflow model zoo:**
 
 Refer to tutorial notebook for more details  
 
+<br>
 
 **Preparing the Configuration file pipeline.config**
 
 **Its recommend to use the same pipeline config file under model folder because many changes have been applied to this file to facilitate the training on windows machine with modest RAM (Example: number of batches set to 1), you can modify the number of classes and keep the rest of details as is, otherwise you can use the master file from Tensorflow zoo and apply the required changes by your self(**Refer to tutorial notebook for more details**)**  
 
-
+<br>
 **Training**
 
 Running the below line in Anaconda prompt:
@@ -108,7 +110,7 @@ Running the below line in Anaconda prompt:
 **python model\_main\_tf2.py --model\_dir=model --pipeline\_config\_path=model\pipeline.config --num\_train\_steps=3000**  
 
 
-
+<br>
 
 **running in Anaconda prompt:**
 
@@ -117,10 +119,10 @@ the below line of code:
 
 ![](https://github.com/halhwadi/Instance-Segmentation---Tensorflow-Object-Detection-API-s/blob/main/images/tensorboard.jpg)  
 
-
+<br>
 **Inference:**
 
 Refer to tutorial notebook for more details  
 
 **Author**
-Husam Alhwadi
+**Husam Alhwadi**
