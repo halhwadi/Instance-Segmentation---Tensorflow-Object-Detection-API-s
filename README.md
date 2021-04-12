@@ -58,7 +58,7 @@ python labelme2coco.py images\test test --labels labels.txt
 
 **Sample of Annotated Images**
 
-![](RackMultipart20210412-4-16qwcq9_html_d2be041226cd05a9.png)
+![](https://github.com/halhwadi/Instance-Segmentation---Tensorflow-Object-Detection-API-s/blob/main/images/Annoated.png)
 
 **Creating Label map:**
 
