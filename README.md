@@ -6,23 +6,28 @@ Model has been trained to detect the following objects from street:
 - lane
 - pedestrian
 - sidewalk
-- vehicle
+- vehicle  
+- 
 
 **Local Environment Specifications**
 
 - Windows 10 Enterprise
 - python version(3.8.8)
-- TensorFlow version(2.4.0) (Facing issues with 2.4.1)
+- TensorFlow version(2.4.0) (Facing issues with 2.4.1)  
+- 
 
 **prerequisites**
 
 - Installing Tensorflow object Detections API&#39;s you can refer to below link [Installation Guide](http://https/tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/install.html)
 - Install wget on your machine to clone github repository
 
-Note: As part of this installation many other dependencies need to be installed as well, please make sure to go through all installation steps, they are bit long and may you would face some challenges
+Note: As part of this installation many other dependencies need to be installed as well, please make sure to go through all installation steps, they are bit long and may you would face some challenges  
 
-**Clone the Github repository**
-type thr line of code in anaconda prompt
+
+**Clone the Github repository**  
+
+type thr line of code in anaconda prompt  
+
 git clone https://github.com/halhwadi/Instance-Segmentation---Tensorflow-Object-Detection-API-s.git
 
 **Downloading Images**
