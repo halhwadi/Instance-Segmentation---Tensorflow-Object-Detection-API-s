@@ -28,11 +28,13 @@ Note: As part of this installation many other dependencies need to be installed 
 
 type thr line of code in anaconda prompt  
 
-git clone https://github.com/halhwadi/Instance-Segmentation---Tensorflow-Object-Detection-API-s.git
+git clone https://github.com/halhwadi/Instance-Segmentation---Tensorflow-Object-Detection-API-s.git  
+
 
 **Downloading Images**
  street images have been downloaded by using google map street view and stored under this path (images/resize)
- only 30 images have been downloaded to avoid overloading our modest machine
+ only 30 images have been downloaded to avoid overloading our modest machine  
+ 
 
 **Resizeing**
 
@@ -42,7 +44,8 @@ IF your workstation is not equipped with high RAM its highly recommended to resi
 You can resize the images in anaconda prompt by running the following line of code(make sure your images are available under
  this path (images/resize)...Width height
 
-**resize.py 400 300 images/resize/**
+**resize.py 400 300 images/resize/**  
+
 
 **Annotations**
 
@@ -53,7 +56,8 @@ In this tutorial we will use [Labelme tools](https://github.com/wkentaro/labelme
 
 Once annotation is done, please make sure to split images between train and test by moving them to &#39;images\train&#39; and &#39;images\test&#39; folders
 
-**Note: make sure to move the images and their corresponding json files as well**
+**Note: make sure to move the images and their corresponding json files as well**  
+
 
 **Creating COCO files**
 
@@ -67,30 +71,36 @@ python labelme2coco.py images\test test --labels labels.txt
 
 **Sample of Annotated Images**
 
-![](https://github.com/halhwadi/Instance-Segmentation---Tensorflow-Object-Detection-API-s/blob/main/images/Annoated.png)
+![](https://github.com/halhwadi/Instance-Segmentation---Tensorflow-Object-Detection-API-s/blob/main/images/Annoated.png)  
+
 
 **Creating Label map:**
 
-Refer to tutorial notebook for more details
+Refer to tutorial notebook for more details  
+
 
 **Creating tfrecords:**
  running the below command in Anaconda prompt:
 
-**python create\_coco\_tf\_record.py --logtostderr --train\_image\_dir=images/train --test\_image\_dir=images/test --train\_annotations\_file=train/annotations.json --test\_annotations\_file=test/annotations.json --output\_dir=tfrecords --include\_masks**
+**python create\_coco\_tf\_record.py --logtostderr --train\_image\_dir=images/train --test\_image\_dir=images/test --train\_annotations\_file=train/annotations.json --test\_annotations\_file=test/annotations.json --output\_dir=tfrecords --include\_masks**  
+
 
 **Downloading the mask\_rcnn model from Tensorflow model zoo:**
 
-Refer to tutorial notebook for more details
+Refer to tutorial notebook for more details  
+
 
 **Preparing the Configuration file pipeline.config**
 
-**Its recommend to use the same pipeline config file under model folder because many changes have been applied to this file to facilitate the training on windows machine with modest RAM (Example: number of batches set to 1), you can modify the number of classes and keep the rest of details as is, otherwise you can use the master file from Tensorflow zoo and apply the required changes by your self(**Refer to tutorial notebook for more details**)**
+**Its recommend to use the same pipeline config file under model folder because many changes have been applied to this file to facilitate the training on windows machine with modest RAM (Example: number of batches set to 1), you can modify the number of classes and keep the rest of details as is, otherwise you can use the master file from Tensorflow zoo and apply the required changes by your self(**Refer to tutorial notebook for more details**)**  
+
 
 **Training**
 
 Running the below line in Anaconda prompt:
 
-**python model\_main\_tf2.py --model\_dir=model --pipeline\_config\_path=model\pipeline.config --num\_train\_steps=3000**
+**python model\_main\_tf2.py --model\_dir=model --pipeline\_config\_path=model\pipeline.config --num\_train\_steps=3000**  
+
 
 
 
@@ -99,8 +109,12 @@ Running the below line in Anaconda prompt:
 the below line of code:
 **tensorboard --logdir=model\train**
 
-![](https://github.com/halhwadi/Instance-Segmentation---Tensorflow-Object-Detection-API-s/blob/main/images/tensorboard.jpg)
+![](https://github.com/halhwadi/Instance-Segmentation---Tensorflow-Object-Detection-API-s/blob/main/images/tensorboard.jpg)  
+
 
 **Inference**** :**
 
-Refer to tutorial notebook for more details
+Refer to tutorial notebook for more details  
+
+**Author**
+Husam Alhwadi
