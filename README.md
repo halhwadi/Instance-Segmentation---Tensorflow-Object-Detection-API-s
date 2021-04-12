@@ -21,6 +21,10 @@ Model has been trained to detect the following objects from street:
 
 Note: As part of this installation many other dependencies need to be installed as well, please make sure to go through all installation steps, they are bit long and may you would face some challenges
 
+**Clone the Github repository**
+type thr line of code in anaconda prompt
+git clone https://github.com/halhwadi/Instance-Segmentation---Tensorflow-Object-Detection-API-s.git
+
 **Downloading Images**
  street images have been downloaded by using google map street view and stored under this path (images/resize)
  only 30 images have been downloaded to avoid overloading our modest machine
