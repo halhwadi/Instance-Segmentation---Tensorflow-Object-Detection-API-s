@@ -81,17 +81,20 @@ python labelme2coco.py images\test test --labels labels.txt
 ![](https://github.com/halhwadi/Instance-Segmentation---Tensorflow-Object-Detection-API-s/blob/main/images/Annoated.png)  
 
 <br>
+
 **Creating Label map:**
 
 Refer to tutorial notebook for more details  
 
 <br>
+
 **Creating tfrecords:**
  running the below command in Anaconda prompt:
 
 **python create\_coco\_tf\_record.py --logtostderr --train\_image\_dir=images/train --test\_image\_dir=images/test --train\_annotations\_file=train/annotations.json --test\_annotations\_file=test/annotations.json --output\_dir=tfrecords --include\_masks**  
 
 <br>
+
 **Downloading the mask\_rcnn model from Tensorflow model zoo:**
 
 Refer to tutorial notebook for more details  
@@ -103,6 +106,7 @@ Refer to tutorial notebook for more details
 **Its recommend to use the same pipeline config file under model folder because many changes have been applied to this file to facilitate the training on windows machine with modest RAM (Example: number of batches set to 1), you can modify the number of classes and keep the rest of details as is, otherwise you can use the master file from Tensorflow zoo and apply the required changes by your self(**Refer to tutorial notebook for more details**)**  
 
 <br>
+
 **Training**
 
 Running the below line in Anaconda prompt:
@@ -120,6 +124,7 @@ the below line of code:
 ![](https://github.com/halhwadi/Instance-Segmentation---Tensorflow-Object-Detection-API-s/blob/main/images/tensorboard.jpg)  
 
 <br>
+
 **Inference:**
 
 Refer to tutorial notebook for more details  
