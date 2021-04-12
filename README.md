@@ -31,7 +31,8 @@ type thr line of code in anaconda prompt
 git clone https://github.com/halhwadi/Instance-Segmentation---Tensorflow-Object-Detection-API-s.git  
 
 
-**Downloading Images**
+**Downloading Images**  
+
  street images have been downloaded by using google map street view and stored under this path (images/resize)
  only 30 images have been downloaded to avoid overloading our modest machine  
  
@@ -45,6 +46,8 @@ You can resize the images in anaconda prompt by running the following line of co
  this path (images/resize)...Width height
 
 **resize.py 400 300 images/resize/**  
+
+
 
 
 **Annotations**  
