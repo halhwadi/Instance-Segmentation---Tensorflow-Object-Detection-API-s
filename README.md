@@ -132,4 +132,5 @@ Refer to tutorial notebook for more details
 
 **Author:**  
 
-**Husam Alhwadi**
+**Husam Alhwadi**  
+**halhwadi@yahoo.com**
