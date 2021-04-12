@@ -47,7 +47,8 @@ You can resize the images in anaconda prompt by running the following line of co
 **resize.py 400 300 images/resize/**  
 
 
-**Annotations**
+**Annotations**  
+
 
 In this tutorial we will use [Labelme tools](https://github.com/wkentaro/labelme), you can install by running (conda install -c conda-forge labelme)
  Once its installed please type labelme on Anaconda prompt to open it
