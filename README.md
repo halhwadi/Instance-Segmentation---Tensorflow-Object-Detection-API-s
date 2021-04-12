@@ -31,6 +31,7 @@ type thr line of code in anaconda prompt
 
 git clone https://github.com/halhwadi/Instance-Segmentation---Tensorflow-Object-Detection-API-s.git  
 
+<br>
 
 **Downloading Images**  
 
