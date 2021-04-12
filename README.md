@@ -24,6 +24,7 @@ Model has been trained to detect the following objects from street:
 Note: As part of this installation many other dependencies need to be installed as well, please make sure to go through all installation steps, they are bit long and may you would face some challenges  
 
 
+
 **Clone the Github repository**  
 
 type thr line of code in anaconda prompt  
