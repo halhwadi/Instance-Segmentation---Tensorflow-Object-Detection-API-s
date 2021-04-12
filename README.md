@@ -129,5 +129,6 @@ the below line of code:
 
 Refer to tutorial notebook for more details  
 
-**Author**
+**Author:**  
+
 **Husam Alhwadi**
