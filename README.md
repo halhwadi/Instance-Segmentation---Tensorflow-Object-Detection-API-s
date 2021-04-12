@@ -1,4 +1,4 @@
-alt-H1**Introduction:**
+**Introduction:**
  This Model has been initially build and trained on local windows 10 machine equipped with 12GB RAM (No GPU and TPU)and will be trained later on TPU via Colab
 
 Model has been trained to detect the following objects from street:
