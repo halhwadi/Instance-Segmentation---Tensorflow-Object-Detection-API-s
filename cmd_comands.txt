@@ -1,0 +1,18 @@
+creating coco json files:
+python labelme2coco.py images\train train --labels labels.txt
+python labelme2coco.py images\test test --labels labels.txt
+
+
+Creating tefreocrd:
+python create_coco_tf_record.py --logtostderr --train_image_dir=images/train --test_image_dir=images/test --train_annotations_file=train/annotations.json --test_annotations_file=test/annotations.json --output_dir=tfrecords --include_masks
+
+training the model
+python model_main_tf2.py --model_dir=model --pipeline_config_path=model\pipeline.config --num_train_steps=3000
+
+Running tensorboard:
+tensorboard --logdir=model\train
+
+
+
+
+

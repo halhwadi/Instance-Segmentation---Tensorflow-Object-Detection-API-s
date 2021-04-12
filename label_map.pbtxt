@@ -1,0 +1,16 @@
+item{ 
+	id:1
+	name:'lane'
+}
+item{ 
+	id:2
+	name:'pedestrian'
+}
+item{ 
+	id:3
+	name:'sidewalk'
+}
+item{ 
+	id:4
+	name:'vehicle'
+}
