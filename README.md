@@ -38,7 +38,8 @@ git clone https://github.com/halhwadi/Instance-Segmentation---Tensorflow-Object-
  street images have been downloaded by using google map street view and stored under this path (images/resize)
  only 30 images have been downloaded to avoid overloading our modest machine  
  
-<br>  
+<br> 
+
 **Resizeing**
 
 IF your workstation is not equipped with high RAM its highly recommended to resize the images
