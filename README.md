@@ -14,7 +14,8 @@ Model has been trained to detect the following objects from street:
 - Windows 10 Enterprise
 - python version(3.8.8)
 - TensorFlow version(2.4.0) (Facing issues with 2.4.1)  
-- 
+
+<br>
 
 **prerequisites**
 
@@ -23,7 +24,11 @@ Model has been trained to detect the following objects from street:
 
 Note: As part of this installation many other dependencies need to be installed as well, please make sure to go through all installation steps, they are bit long and may you would face some challenges  
 
+<br>
 
+[Street Vieews](https://github.com/halhwadi/Instance-Segmentation---Tensorflow-Object-Detection-API-s/blob/main/videos/segemtation_gif.gif)
+
+<br>
 
 **Clone the Github repository**  
 
