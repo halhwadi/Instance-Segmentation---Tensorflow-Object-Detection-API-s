@@ -26,7 +26,7 @@ Note: As part of this installation many other dependencies need to be installed 
 
 <br>
 
-[Street Vieews](https://github.com/halhwadi/Instance-Segmentation---Tensorflow-Object-Detection-API-s/blob/main/videos/segemtation_gif.gif)
+![Street Vieews](https://github.com/halhwadi/Instance-Segmentation---Tensorflow-Object-Detection-API-s/blob/main/videos/segemtation_gif.gif)
 
 <br>
 
