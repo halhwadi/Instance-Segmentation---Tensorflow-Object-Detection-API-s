@@ -25,7 +25,7 @@ Note: As part of this installation many other dependencies need to be installed 
 
 <br>
 
-[Street Views](videos/segemntation.gif)
+[Street Views](https://github.com/halhwadi/Instance-Segmentation---Tensorflow-Object-Detection-API-s/blob/main/videos/segemntation.gif)
 
 <br>
 
