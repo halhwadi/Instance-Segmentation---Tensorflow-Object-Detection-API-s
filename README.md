@@ -25,6 +25,10 @@ Note: As part of this installation many other dependencies need to be installed 
 
 <br>
 
+[![Alternate Text]({image-url})]({videos/segemntation.mp4} "Street Views") 
+
+<br>
+
 **Clone the Github repository**  
 
 type thr line of code in anaconda prompt  
