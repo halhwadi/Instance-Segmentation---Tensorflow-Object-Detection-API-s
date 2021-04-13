@@ -25,7 +25,7 @@ Note: As part of this installation many other dependencies need to be installed 
 
 <br>
 
-[![Alternate Text]({image-url})]({videos/segemntation.mp4} "Street Views") 
+[Street Views](videos/segemntation.gif)
 
 <br>
 
