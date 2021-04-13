@@ -7,7 +7,12 @@ Model has been trained to detect the following objects from street:
 - pedestrian
 - sidewalk
 - vehicle  
-- 
+
+<br>
+
+![Street Vieews](https://github.com/halhwadi/Instance-Segmentation---Tensorflow-Object-Detection-API-s/blob/main/videos/segemtation_gif.gif)
+
+<br>
 
 **Local Environment Specifications**
 
@@ -24,11 +29,7 @@ Model has been trained to detect the following objects from street:
 
 Note: As part of this installation many other dependencies need to be installed as well, please make sure to go through all installation steps, they are bit long and may you would face some challenges  
 
-<br>
 
-![Street Vieews](https://github.com/halhwadi/Instance-Segmentation---Tensorflow-Object-Detection-API-s/blob/main/videos/segemtation_gif.gif)
-
-<br>
 
 **Clone the Github repository**  
 
